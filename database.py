@@ -8,7 +8,7 @@ cur_dir= os.getcwd()
 if not os.path.exists(path):
     os.makedirs(path)
 #branches=['EE-120','CS-56','ME-147','CE-97','CH-90','AE-58','ED-58','NA-55','MM-50','PH-10','BE-34','BS-35']
-branches=['CS-60','ME-150','CE-110','CH-110','AE-70','ED-60','NA-60','MM-60','PH-50','BE-50','BS-50']
+branches=['CS-60','EE-130','ME-150','CE-110','CH-110','AE-70','ED-60','NA-60','MM-60','PH-50','BE-50','BS-50']
 year_codes=['14']
 
 for i in branches:
