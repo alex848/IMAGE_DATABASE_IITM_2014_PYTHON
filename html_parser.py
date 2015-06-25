@@ -12,5 +12,12 @@ pageFile.close()
 soup = BeautifulSoup("".join(pageHtml))
 menu1= soup.find("div", {"class":"block block-system no-title"})
 menu2= menu1.find("strong")
-print menu2.text
 name= menu2.text
+menu1.findAll("td")
+print "Name: {}".format(name)
+para=menu1.text
+#print para
+a= para.find("Gender")
+index_gender= a+ len("Gender")
+gender= para[index_gender]
+print "Gender: {}".format(gender) 
